@@ -1,16 +1,74 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tags Semanticas</title>
-</head>
-<body>
-    
-    <!-- criando pagina com tags semanticas -->
+    <style>
+        body {
+            background-color: rgb(219, 221, 220);
+        }
 
+        header {
+            background-color: white;
+            /*cor de fundo*/
+            height: 150px;
+            /*altura da caixa*/
+            padding: 20px;
+            /*espaçamento interno*/
+        }
+
+        header>nav {
+            background-color: rgb(121, 122, 122);
+            padding: 5px;
+
+            font-size: 20px;
+            /*tamanho do texto*/
+            color: white;
+            /*cor do texto*/
+
+            box-shadow: 10px 10px 8px black;
+            /*desl horizontal - desl vertical - embaçamento - cor */
+
+        }
+
+        main {
+            background-color: rgb(10, 230, 47);
+            margin-top: 20px;
+            padding: 10px;
+
+            border-radius: 50px 0px;
+        }
+
+        article {
+            background-color: rgb(219, 221, 220);
+            padding: 5px;
+            margin-top: 20px;
+        }
+
+        article>h2 {
+            background-color: rgb(121, 122, 122);
+            box-shadow: black 3px 3px 5px;
+        }
+
+        footer {
+            background-color: black;
+            margin-top: 20px;
+            /*espaçemento externo em cima*/
+            padding: 1px;
+            text-align: center;
+            /*centralizar o texto*/
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- criando pagina com tags semanticas -->
     <!-- CABEÇALHO -->
     <header>
+        <h1>Meu Site</h1>
         <!-- menu de navegação -->
         <nav> link1 link2 link3 ... </nav>
     </header>
@@ -35,12 +93,8 @@
 
     <!-- RODAPE -->
     <footer>
-
+        <p>Desenvolvido por helpTI</p>
     </footer>
-
-
-
-
-
 </body>
+
 </html>
