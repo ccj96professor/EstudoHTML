@@ -1,14 +1,27 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/favicon-helpti.ico" type="image/x-icon">
     <title>Midias HTML</title>
 </head>
+
 <body>
     <!-- add imagem -->
-    <img src="img/flor.jpg" alt="paisagem amazonas">
+    <!-- <img src="img/flor.jpg" alt="paisagem amazonas"> -->
+
+    <!-- add imagem flexiveis -->
+    <picture>
+        <source media="(max-width: 500px)" srcset="img/flor-300x200.jpg" type="image/jpg">
+        <source media="(max-width: 800px)" srcset="img/flor-700x467.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="img/flor-1000x667.jpg" type="image/jpg">
+        
+        <img src="img/modelo.png" alt="paisagem amazonas"> 
+    </picture>
+    
 
 </body>
+
 </html>
